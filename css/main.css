@@ -48,7 +48,6 @@ header .header-icons-container {
     width: 300px;
     height: auto;
     display: flex;
-    justify-items: flex-end;
     align-items: center;
     justify-content: space-between;
     justify-self: end;
@@ -106,9 +105,8 @@ nav .profile-link a {
 .home-main-text {
     font-family: "Roboto mono", monospace;
     font-size: 30px;
-    font-weight: 700px;
+    font-weight: 700;
     letter-spacing: 8px;
-    color: black;
     text-align: center;
     margin-top: 50px;
     color: white;
@@ -118,12 +116,10 @@ nav .profile-link a {
     height: 50px;
     background: #47cfac;
     display: grid;
-    align-items: center;
-}
-
-.home-main-button a {
+    place-items: center;
     font-weight: 700;
     font-size: 18px;
+    border: 2px solid black;
 }
 
 /*segunda sección del proyecto: blogs */
@@ -155,7 +151,7 @@ nav .profile-link a {
     grid-column: 2;
 }
 
-.blogs-news-info-containe p {
+.blogs-news-info-container p {
     margin-bottom: 35px;
 }
 
@@ -236,17 +232,17 @@ footer p {
     padding-bottom: 50px;
 }
 
-.contact-main-container div {
+.contact-main-container > div {
     display: inline-block;
     width: 49.5%;
     height: 100%;
 }
 
-.contact-main-container div a {
+.contact-main-container > div a {
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
- .contact-main-container .contact-left, .contact-right {
+ .contact-main-container .contact-left, .contact-main-container .contact-right {
     text-align: initial;
     margin-top: 85px;
  }

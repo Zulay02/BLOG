@@ -1,5 +1,5 @@
 @media ( max-width: 900px) {
-    .blogs-main.new {
+    .blogs-main-new {
        grid-template-columns: 1fr;
        grid-template-rows: 3fr; 
     }
@@ -16,9 +16,6 @@
     .proyects-main-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr;
-    }
-    .profile-main-container {
-        display: block;
     }
 }
 
